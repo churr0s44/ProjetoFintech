@@ -1,0 +1,116 @@
+/* Tela de login */
+header img {
+  width: 150px;
+}
+
+body {
+  background-color: #242125;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: auto;
+  scrollbar-width: 20px;
+  scrollbar-face-color: white;
+  scrollbar-base-color: rgb(53, 25, 78);
+}
+
+body .profile-picture {
+  --size: 300px;
+
+  width: var(--size);
+  height: var(--size);
+  background-image: url("../images/photo03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+body .inputs {
+  background: #9c00fc12;
+  border-color: #9c00fc;
+}
+
+body .btn-pos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+body .botao-entrar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  background: #9c00fc;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  height: 40px;
+  width: 200px;
+}
+
+body .botao-entrar:hover {
+  background: #b743ff;
+}
+
+body .links-bg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  gap: 50px;
+}
+
+body .link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Tela de perfil */
+body .titulo-card {
+  background: #9c00fc;
+  border-radius: 4px;
+}
+
+body .info-card1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: var(--spacing-half);
+  margin-top: var(--spacing-half);
+  background: #3a333e;
+  border-radius: 5px;
+}
+
+body .valor {
+  text-align: end;
+}
+
+body .valor-total {
+  text-align: end;
+  color: green;
+}
+
+body .info-card2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background: #3a333e;
+  border-radius: 5px;
+  background-image: url("../images/photo04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.texto-card {
+  grid-column: 1;
+  grid-row: 4;
+  font-size: 18pt;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+}
